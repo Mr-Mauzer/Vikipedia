@@ -1,0 +1,30 @@
+* {
+  padding: 0; /* внутренний отступ для каждого элемента */
+  margin: 0; /* внешний отступ для каждого элемента */
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./img/Без названия 1.jfif');
+  background-size: 100%; /* Размер фонового фото*/
+  background-repeat: no-repeat; /* Чтоб фото не повторялось*/
+}
+
+h1 {
+  text-align: center; /* Делает любой текст по центру*/
+  color: white; /* белый цвет*/
+  margin-bottom: 20px; /*отступ вниз*/
+}
+
+div {
+  margin-bottom: 20px; /*отступ вниз*/
+  display: flex;
+  gap: 50px; /*отступ между элементами контейнера*/
+  justify-content: center; /*центрирование элементов для контейнера*/
+}
+
+img {
+  border: solid 2px orange; /*Рамка*/
+  /* width: 200px;
+  height: 100px; */
+}
